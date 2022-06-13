@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: Josefin;
+	src: url("../fonts/JosefinSans-Regular.ttf") format("truetype");
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+div#divForCart {
+	margin-left: 7em;
+	margin-right: 7em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+div#forTheCart {
+	border-width: 5px; 
+	background-color: white; 
+	padding: 20px; 
+	border-radius: 10px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+img#imageForCart {
+	height: 7em;
+}
+
+div#divForCheckout {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+form {
+	border-width: 5px; 
+	background-color: white; 
+	padding: 15px; 
+	border-radius: 10px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+label {
+  font-family: Josefin, Verdana, Geneva, sans-serif;
+}
+
+footer {
+	padding-bottom: 1em;
+	padding-top: 1em;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+h1, h2, h3, h4, a.nav-item, p {
+	font-family: Josefin, Verdana, Geneva, sans-serif;
+}
+
+a.nav-item {
+	color: #A09191;
+}
+
+a.nav-item:hover {
+	color: black;
+}
+
+a.active {
+	color: black;
+}
+
+
+h1 {
+	padding-top: 15px;
+}
+
+button#LoginButton, button#RegisterButton, button#EditButton {
+	transition-duration: 0.4s;
+  	cursor: pointer;
+}
+
+button#LoginButton:hover, button#RegisterButton:hover, button#EditButton:hover {
+	background-color: grey;
+	color: white;
+}
+
+img#logo {
+		width: relative;
+		height: 75px;
+}
